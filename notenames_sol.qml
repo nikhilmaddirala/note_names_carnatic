@@ -43,43 +43,41 @@ MuseScore {
          if (typeof notes[i].tpc === "undefined") // like for grace notes ?!?
             return
          switch (notes[i].tpc) {
-            case -1: name = qsTranslate("InspectorAmbitus", "Fa♭♭"); break;
-            case  0: name = qsTranslate("InspectorAmbitus", "Do♭♭"); break;
-            case  1: name = qsTranslate("InspectorAmbitus", "Sol♭♭"); break;
-            case  2: name = qsTranslate("InspectorAmbitus", "Re♭♭"); break;
-            case  3: name = qsTranslate("InspectorAmbitus", "La♭♭"); break;
-            case  4: name = qsTranslate("InspectorAmbitus", "Mi♭♭"); break;
-            case  5: name = qsTranslate("InspectorAmbitus", "Si♭♭"); break;
-            case  6: name = qsTranslate("InspectorAmbitus", "Fa♭"); break;
-            case  7: name = qsTranslate("InspectorAmbitus", "Do♭"); break;
-
-            case  8: name = qsTranslate("InspectorAmbitus", "Sol♭"); break;
-            case  9: name = qsTranslate("InspectorAmbitus", "Re♭"); break;
-            case 10: name = qsTranslate("InspectorAmbitus", "La♭"); break;
-            case 11: name = qsTranslate("InspectorAmbitus", "Mi♭"); break;
-            case 12: name = qsTranslate("InspectorAmbitus", "Si♭"); break;
-            case 13: name = qsTranslate("InspectorAmbitus", "Fa"); break;
-            case 14: name = qsTranslate("InspectorAmbitus", "Do"); break;
-            case 15: name = qsTranslate("InspectorAmbitus", "Sol"); break;
-            case 16: name = qsTranslate("InspectorAmbitus", "Re"); break;
-            case 17: name = qsTranslate("InspectorAmbitus", "La"); break;
-            case 18: name = qsTranslate("InspectorAmbitus", "Mi"); break;
-            case 19: name = qsTranslate("InspectorAmbitus", "Si"); break;
-
-            case 20: name = qsTranslate("InspectorAmbitus", "Fa♯"); break;
-            case 21: name = qsTranslate("InspectorAmbitus", "Do♯"); break;
-            case 22: name = qsTranslate("InspectorAmbitus", "Sol♯"); break;
-            case 23: name = qsTranslate("InspectorAmbitus", "Re♯"); break;
-            case 24: name = qsTranslate("InspectorAmbitus", "La♯"); break;
-            case 25: name = qsTranslate("InspectorAmbitus", "Mi♯"); break;
-            case 26: name = qsTranslate("InspectorAmbitus", "Si♯"); break;
-            case 27: name = qsTranslate("InspectorAmbitus", "Fa♯♯"); break;
-            case 28: name = qsTranslate("InspectorAmbitus", "Do♯♯"); break;
-            case 29: name = qsTranslate("InspectorAmbitus", "Sol♯♯"); break;
-            case 30: name = qsTranslate("InspectorAmbitus", "Re♯♯"); break;
-            case 31: name = qsTranslate("InspectorAmbitus", "La♯♯"); break;
-            case 32: name = qsTranslate("InspectorAmbitus", "Mi♯♯"); break;
-            case 33: name = qsTranslate("InspectorAmbitus", "Si♯♯"); break;
+            case -1: name = qsTranslate("InspectorAmbitus", "Ma1"); break;  // Fa♭♭
+            case  0: name = qsTranslate("InspectorAmbitus", "Sa"); break;   // Do♭♭
+            case  1: name = qsTranslate("InspectorAmbitus", "Pa"); break;   // Sol♭♭
+            case  2: name = qsTranslate("InspectorAmbitus", "Ri1"); break;  // Re♭♭
+            case  3: name = qsTranslate("InspectorAmbitus", "Dha1"); break; // La♭♭
+            case  4: name = qsTranslate("InspectorAmbitus", "Ga1"); break;  // Mi♭♭
+            case  5: name = qsTranslate("InspectorAmbitus", "Ni1"); break;  // Si♭♭
+            case  6: name = qsTranslate("InspectorAmbitus", "Ma1"); break;  // Fa♭
+            case  7: name = qsTranslate("InspectorAmbitus", "Sa"); break;   // Do♭
+            case  8: name = qsTranslate("InspectorAmbitus", "Pa"); break;   // Sol♭
+            case  9: name = qsTranslate("InspectorAmbitus", "Ri1"); break;  // Re♭
+            case 10: name = qsTranslate("InspectorAmbitus", "Dha1"); break; // La♭
+            case 11: name = qsTranslate("InspectorAmbitus", "Ga1"); break;  // Mi♭
+            case 12: name = qsTranslate("InspectorAmbitus", "Ni1"); break;  // Si♭
+            case 13: name = qsTranslate("InspectorAmbitus", "Ma1"); break;  // Fa
+            case 14: name = qsTranslate("InspectorAmbitus", "Sa"); break;   // Do
+            case 15: name = qsTranslate("InspectorAmbitus", "Pa"); break;   // Sol
+            case 16: name = qsTranslate("InspectorAmbitus", "Ri2"); break;  // Re
+            case 17: name = qsTranslate("InspectorAmbitus", "Dha2"); break; // La
+            case 18: name = qsTranslate("InspectorAmbitus", "Ga2"); break;  // Mi
+            case 19: name = qsTranslate("InspectorAmbitus", "Ni2"); break;  // Si
+            case 20: name = qsTranslate("InspectorAmbitus", "Ma2"); break;  // Fa♯
+            case 21: name = qsTranslate("InspectorAmbitus", "Sa"); break;   // Do♯
+            case 22: name = qsTranslate("InspectorAmbitus", "Pa"); break;   // Sol♯
+            case 23: name = qsTranslate("InspectorAmbitus", "Ri3"); break;  // Re♯
+            case 24: name = qsTranslate("InspectorAmbitus", "Dha3"); break; // La♯
+            case 25: name = qsTranslate("InspectorAmbitus", "Ga3"); break;  // Mi♯
+            case 26: name = qsTranslate("InspectorAmbitus", "Ni3"); break;  // Si♯
+            case 27: name = qsTranslate("InspectorAmbitus", "Ma2"); break;  // Fa♯♯
+            case 28: name = qsTranslate("InspectorAmbitus", "Sa"); break;   // Do♯♯
+            case 29: name = qsTranslate("InspectorAmbitus", "Pa"); break;   // Sol♯♯
+            case 30: name = qsTranslate("InspectorAmbitus", "Ri3"); break;  // Re♯♯
+            case 31: name = qsTranslate("InspectorAmbitus", "Dha3"); break; // La♯♯
+            case 32: name = qsTranslate("InspectorAmbitus", "Ga3"); break;  // Mi♯♯
+            case 33: name = qsTranslate("InspectorAmbitus", "Ni3"); break;  // Si♯♯
             default: name = qsTr("?")   + text.text; break;
          } // end switch tpc
 
