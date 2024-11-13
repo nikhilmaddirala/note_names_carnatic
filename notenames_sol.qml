@@ -22,7 +22,7 @@ import MuseScore 3.0
 MuseScore {
    version: "3.6.1"
    description: "This plugin names notes as per your language setting"
-   title: "Note Names Solfege"
+   title: "Note Names Carnatic"
    categoryCode: "composing-arranging-tools"
    thumbnailName: "note_names.png"
 
